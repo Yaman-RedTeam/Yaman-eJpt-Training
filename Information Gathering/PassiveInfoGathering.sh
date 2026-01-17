@@ -1,20 +1,29 @@
 #COMMANDS && Sites FOR PASSIVE INFORMATION GATHERING.
+#WEBSITE RECON & FOOTPRINTING
 
 =whatis host  
-#DNS lookup
+#DNS utility lookup
+
+robots.txt 
+#is a file that tells search engine bots which parts of your website to avoid crawling (like admin pages or private folders)
+
+sitemapxml
+#lists all important URLs to help search engines index your site efficiently.
+
+buildwith, wappalyzer
+#Wappalyzer and BuiltWith are browser extensions that detect and list the technologies used by any website—like CMS, frameworks, analytics tools
 
 =whatweb  
-#web technology used   
-
-=host 
-#ip address, etc
+#WhatWeb is a reconnaissance tool used to identify technologies used by a website, 
 
 extensions(wappalyzer, buildwith)
-#Techology used in details 
+#Technology used in details 
  
 webhttrack (site)
 #website copier download
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 whois(site)
 #information of dns
 
